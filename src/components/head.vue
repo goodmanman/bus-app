@@ -1,5 +1,5 @@
 <template>
-	<div class='head'><img onclick="window.history.go(-1)" src="../assets/back.png" />{{title}}</div>
+	<div class='head'><img onclick="window.history.go(-1)" src="../assets/back.png" /><span>{{title}}</span></div>
 </template>
 
 <script>
@@ -28,7 +28,9 @@
 		font-size: 1rem;
 		text-align: center;
 	}
-	
+	.head span{
+		margin-left: -2rem;
+	}
 	.head img {
 		height: 1rem;
 		float: left;

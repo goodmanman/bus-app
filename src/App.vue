@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  	<myhead></myhead>
+  	<myhead name ="$route.meta.name"></myhead>
     <router-view ></router-view>
     <meu v-show="$route.meta.navShow"></meu>
   </div>
@@ -11,13 +11,10 @@ import meu from '@/components/Meu';
 import myhead from "@/components/head";	
 export default {
   name: 'app',
-  /*data:{
-  	meuShow:true,
-  },*/
   components:{
   	meu,
   	myhead
-  }
+  },
 }
 </script>
 

@@ -7,15 +7,15 @@
 		name: 'head',
 		data() {
 			return {
-				title: "加油站"
+				title:this.$route.meta.name
 			}
 		},
 		methods: {
 			goBack() {
-				//window.history.go(-1);
 				console.log(1)
 			}
-		}
+		},
+		
 	}
 </script>
 

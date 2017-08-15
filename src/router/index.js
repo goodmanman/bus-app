@@ -19,37 +19,37 @@ export default new Router({
       path: '/',
       name: 'come',
       component: come,
-      meta: { navShow: true}
+      meta: { navShow: true,name:'加油'}
     },
     {
       path: '/come',
       name: 'come',
       component: come,
-      meta: { navShow: true}
+      meta: { navShow: true,name:'加油'}
     },
     {
       path: '/comePay',
       name: 'comePay',
       component: comePay,
-      meta: { navShow: false}
+      meta: { navShow: false,name:'支付'}
     },
     {
       path: '/carServeice',
       name: 'carServeice',
       component: carServeice,
-      meta: { navShow: true}
+      meta: { navShow: true,name:'汽车服务'}
     },
     {
       path: '/activity',
       name: 'activity',
       component: activity,
-      meta: { navShow: true}
+      meta: { navShow: true,name:'活动'}
     },
     {
       path: '/personCenter',
       name: 'personCenter',
       component: personCenter,
-      meta: { navShow: false}
+      meta: { navShow: false,name:'个人中心'}
     },
     {
       path: '/personOrder',

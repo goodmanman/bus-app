@@ -108,7 +108,7 @@
 	.item2 select{
 		border: 1px solid #f3f3f3;
 		height: 1.3rem;
-		color:#CACACA;
+		color:#8c8c8c;
 		width:25%;
 	}
 	.item2 select:nth-child(1){
@@ -148,7 +148,7 @@
 	}
 	.text2{
 		font-size: 0.5rem;
-		color:#CACACA;
+		color:#8c8c8c;
 		display: flex;
 		justify-content: space-between;
 		margin-top: 0.8rem;

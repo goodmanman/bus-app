@@ -4,7 +4,13 @@ import come from '@/components/come/come'
 import comePay from '@/components/come/comePay'
 import carServeice from '@/components/carServeice/carServeice'
 import activity from '@/components/activity/activity'
+/*我*/
 import personCenter from '@/components/personCenter/personCenter'
+import personOrder from '@/components/personCenter/personOrder'
+import personOrderCancel from '@/components/personCenter/personOrderCancel'
+import personOrderComplete from '@/components/personCenter/personOrderComplete'
+import personOrderIn from '@/components/personCenter/personOrderIn'
+
 Vue.use(Router)
 
 export default new Router({
@@ -43,6 +49,30 @@ export default new Router({
       path: '/personCenter',
       name: 'personCenter',
       component: personCenter,
+      meta: { navShow: false}
+    },
+    {
+      path: '/personOrder',
+      name: 'personOrder',
+      component: personOrder,
+      meta: { navShow: false}
+    },
+    {
+      path: '/personOrderCancel',
+      name: 'personOrderCancel',
+      component: personOrderCancel,
+      meta: { navShow: false}
+    },
+    {
+      path: '/personOrderComplete',
+      name: 'personOrderComplete',
+      component: personOrderComplete,
+      meta: { navShow: false}
+    },
+    {
+      path: '/personOrderIn',
+      name: 'personOrderIn',
+      component: personOrderIn,
       meta: { navShow: false}
     }
   ]

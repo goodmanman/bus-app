@@ -38,7 +38,7 @@ export default {
 	margin-bottom: 0.1rem;
 	border-top: 1px solid #ccc;
 	background: #f5f5f5;
-	height: calc(100% - 3rem);
+	height: calc(100% - 3.3rem);
 }
 h1, h2 {
   font-weight: normal;
@@ -98,6 +98,6 @@ a {
 	padding-bottom: 0.5rem!important;
 }
 .colorF8{
-	color:#cacaca;
+	color:#8c8c8c;
 }
 </style>

@@ -7,7 +7,7 @@
 		name: 'head',
 		data() {
 			return {
-				title: "加油站111"
+				title: "加油站"
 			}
 		},
 		methods: {

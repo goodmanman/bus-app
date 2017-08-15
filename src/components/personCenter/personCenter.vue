@@ -22,10 +22,12 @@
 			</div>
 		</div>
 		<div class="lineBox">
-			<div class="line">
-				<div class="lineItem"><img src="../../assets/p1.png"/><div class="itMes">我的订单</div></div>
-				<img src="../../assets/fanhui.png"/>
-			</div>
+			<router-link to="/personOrder">
+				<div class="line">
+					<div class="lineItem"><img src="../../assets/p1.png"/><div class="itMes">我的订单</div></div>
+					<img src="../../assets/fanhui.png"/>
+				</div>
+			</router-link>
 			<div class="line">
 				<div class="lineItem"><img src="../../assets/p2.png"/><div class="itMes">我的红包</div></div>
 				<img src="../../assets/fanhui.png"/>
@@ -54,6 +56,7 @@
 </script>
 
 <style scoped="">
+	
 	.center{
 		height:calc(100% - 3rem);
 		background: #F5F5F5;
@@ -99,12 +102,12 @@
 		margin-top:-0.8rem;
 	}
 	.div2{
-		color:#CACACA;
+		color:#8c8c8c;
 		font-size: 0.3rem;
 		margin-top:0.1rem;
 	}
 	.item{
-		border-right: 1px solid #CACACA;
+		border-right: 1px solid #8c8c8c;
 		width: 30%;
 		height: 1rem;
 	}
@@ -151,12 +154,16 @@
 		margin-top: 1rem;
 	}
 	.p{
-		color:#CACACA;
+		color:#8c8c8c;
 		font-size: 0.5rem;
 		margin-top: 1.5rem;
 	}
 	.p img{
 		width:1.5rem;
 		opacity: 0.5;
+	}
+	.lineBox a{
+		text-decoration: none;
+		color:initial;
 	}
 </style>

@@ -94,6 +94,6 @@ export default {
 	margin-top: 0.7rem;
 }
 .span2{
-	color:#CACACA;
+	color:#8c8c8c;
 }
 </style>

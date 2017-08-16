@@ -13,7 +13,7 @@ export default {
   name: 'app',
   components:{
   	meu,
-  	myhead
+  	myhead,
   },
 }
 </script>

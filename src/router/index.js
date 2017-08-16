@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
+/*加油*/
 import come from '@/components/come/come'
 import comePay from '@/components/come/comePay'
+import promote from '@/components/come/promote'
+import allMerchant from '@/components/come/allMerchant'
+
 import carServeice from '@/components/carServeice/carServeice'
 import activity from '@/components/activity/activity'
 /*我*/
@@ -74,6 +79,18 @@ export default new Router({
       name: 'personOrderIn',
       component: personOrderIn,
       meta: { navShow: false}
+    },
+    {
+      path: '/promote',
+      name: 'promote',
+      component: promote,
+      meta: { navShow: false,name:'推广'}
+    },
+    {
+      path: '/allMerchant',
+      name: 'allMerchant',
+      component: allMerchant,
+      meta: { navShow: false,name:'所有商户'}
     }
   ]
 })

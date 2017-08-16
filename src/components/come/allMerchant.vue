@@ -1,6 +1,66 @@
-<!--推广页-->
+<!--所有商户页-->
 <template>
 	<div class="box">
+		<div class="item">
+			<div class="line1">
+				<div class="lineDiv">
+					<div class="img"></div>
+					<div class="spanText">武汉启路汽车美容</div>
+				</div>
+				<img src="../../assets/fanhui.png"/>
+			</div>
+			<div class="line2">
+				<p class="p4">
+					<span class="span1">标准洗车</span>
+					<span class="span2">
+						<span class="span3">￥28</span>
+						<span class="span4">￥30</span>
+					</span>
+				</p>
+				<p class="p5">整车泡沫冲洗擦干，轮胎冲洗清洁，车内吸尘</p>
+			</div>
+			<div class="line2">
+				<p class="p4">
+					<span class="span1">标准洗车</span>
+					<span class="span2">
+						<span class="span3">￥28</span>
+						<span class="span4">￥30</span>
+					</span>
+				</p>
+				<p class="p5">整车泡沫冲洗擦干，轮胎冲洗清洁，车内吸尘</p>
+			</div>
+		</div>
+		
+		<div class="item">
+			<div class="line1">
+				<div class="lineDiv">
+					<div class="img"></div>
+					<div class="spanText">武汉启路汽车美容</div>
+				</div>
+				<img src="../../assets/fanhui.png"/>
+			</div>
+			<div class="line2">
+				<p class="p4">
+					<span class="span1">标准洗车</span>
+					<span class="span2">
+						<span class="span3">￥28</span>
+						<span class="span4">￥30</span>
+					</span>
+				</p>
+				<p class="p5">整车泡沫冲洗擦干，轮胎冲洗清洁，车内吸尘</p>
+			</div>
+			<div class="line2">
+				<p class="p4">
+					<span class="span1">标准洗车</span>
+					<span class="span2">
+						<span class="span3">￥28</span>
+						<span class="span4">￥30</span>
+					</span>
+				</p>
+				<p class="p5">整车泡沫冲洗擦干，轮胎冲洗清洁，车内吸尘</p>
+			</div>
+		</div>
+		
 		<div class="item">
 			<div class="line1">
 				<div class="lineDiv">

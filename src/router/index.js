@@ -2,10 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 /*加油*/
-import come from '@/components/come/come'
-import comePay from '@/components/come/comePay'
-import promote from '@/components/come/promote'
-import allMerchant from '@/components/come/allMerchant'
+import come from '@/components/come/come'              /*加油首页*/
+import comePay from '@/components/come/comePay'        /*支付页*/
+import promote from '@/components/come/promote'        /*推广页*/
+import allMerchant from '@/components/come/allMerchant'/*所有商户页*/
+import tombola from '@/components/come/tombola'        /*刮奖页*/
+import merchant from '@/components/come/merchant'      /*商户详情页*/
 
 import carServeice from '@/components/carServeice/carServeice'
 import activity from '@/components/activity/activity'
@@ -91,6 +93,18 @@ export default new Router({
       name: 'allMerchant',
       component: allMerchant,
       meta: { navShow: false,name:'所有商户'}
+    },
+    {
+      path: '/tombola',
+      name: 'tombola',
+      component: tombola,
+      meta: { navShow: false,name:'刮奖'}
+    },
+    {
+      path: '/merchant',
+      name: 'merchant',
+      component: merchant,
+      meta: { navShow: false,name:'启路汽车美容店'}
     }
   ]
 })

@@ -15,7 +15,11 @@
 	  		<router-link to="/promote">推广页</router-link>
 	  		<router-link to="/allMerchant">所有商户</router-link>
 	  	</div>
-	  	
+	  	<div class='pClick'>
+	  		<router-link to="/tombola">刮奖</router-link>
+	  		<router-link to="/merchant">商户详情页</router-link>
+	  		<router-link to="/allMerchant">所有商户</router-link>
+	  	</div>
 	  </div>
   </div>
 </template>
@@ -72,7 +76,7 @@ export default {
 	.someText {
 		width: 100%;
 		padding:0.5rem 0;
-		height:7rem;
+		height:auto;
 		background: #fff;
 		font-size: 0.7rem;;
 	}
@@ -91,6 +95,7 @@ export default {
 		text-align: center;
 		background: #fff;
 		display: flex;
+		margin:0.5rem  0;
 		justify-content: space-around;
 	}
 	.p2{

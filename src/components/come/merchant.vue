@@ -41,8 +41,7 @@
 		},
 		methods: {
 	      open2() {
-	      	var a = document.getElementsByClassName('el-message-box').style;
-	        this.$confirm('此操作将永久删除该文件, 是否继续?', '提示', {
+	        this.$confirm('400-8888-8888', '提示', {
 	          confirmButtonText: '确定',
 	          cancelButtonText: '取消',
 	          type: 'warning'
@@ -56,33 +55,30 @@
 	}
 </script>
 
-<style scoped>
+<style>
 	/*录播图*/
-	h1, h2 {
+	.merchant h1, h2 {
 	  font-weight: normal;
 	}
-	ul {
+	.merchant ul {
 	  list-style-type: none;
 	  padding: 0;
 	}
-	li {
-	  display: inline-block;
-	  margin: 0 10px;
-	}
-	a {
+	
+	.merchant a {
 	  color: #42b983;
 	}
-	.el-carousel__item h3 {
+	.merchant .el-carousel__item h3 {
 	  color: #475669;
 	  font-size: 14px;
 	  opacity: 0.75;
 	  line-height: 150px;
 	  margin: 0;
 	}
-	.el-carousel__item:nth-child(2n) {
+	.merchant .el-carousel__item:nth-child(2n) {
 	  background-color: #99a9bf;
 	}
-	.el-carousel__item:nth-child(2n+1) {
+	.merchant .el-carousel__item:nth-child(2n+1) {
 	  background-color: #d3dce6;
 	}
 	/**/
@@ -90,34 +86,46 @@
 		background: #F5F5F5;
 		height: calc(100% - 3rem);
 	}
-	.detail{
+	.merchant .detail{
 		height: auto;
 		background: #fff;
 	}
-	.line{
+	.merchant .line{
 		display: flex;
 		justify-content: space-between;
 		
 	}
-	.line:nth-child(1){
+	.merchant .line:nth-child(1){
 		padding: 0.6rem 1rem 0.3rem  ;
 	}
-	.line:nth-child(2){
+	.merchant .line:nth-child(2){
 		padding: 0.3rem 1rem ;
 	}
-	.span{
+	.merchant .span{
 		font-size: 0.8rem!important;
 		color:#8C8C8C!important;
 	}
-	.poistion{
+	.merchant .poistion{
 		width:1rem
 	}
-	.phone{
+	.merchant .phone{
 		width:1.3rem;
 	}
-	.el-message-box{
-		width:initial!important;
+	.el-message-box__header{
+		display: none;
 	}
-	
-	
+	.el-icon-warning{
+		display: none;
+	}
+	.el-message-box{
+		width:80%!important;
+	}
+	.el-message-box__message{
+		margin-left: 0!important;
+		text-align: center;
+	}
+	.el-button--primary{
+		background: #eb4452!important;
+		border-color: #eb4452!important;
+	}
 </style>

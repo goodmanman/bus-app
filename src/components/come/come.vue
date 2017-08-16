@@ -18,7 +18,7 @@
 	  	<div class='pClick'>
 	  		<router-link to="/tombola">刮奖</router-link>
 	  		<router-link to="/merchant">商户详情页</router-link>
-	  		<router-link to="/allMerchant">所有商户</router-link>
+	  		<router-link to="/allMerchant">XXXX</router-link>
 	  	</div>
 	  </div>
   </div>

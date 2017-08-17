@@ -2,7 +2,7 @@
   "name": "uncle",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "18810994501@163.com <Y123456a>",
+  "author": "18810994501@163.com ",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

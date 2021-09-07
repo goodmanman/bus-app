@@ -18,3 +18,7 @@ vue init webpack  你的项目名字
 
 https://modao.cc/app/9dhfiZuHziSNGm056wpOpBcZpHFjBBF#screen=s23BAD161131500520735223
 
+
+## just look look
+https://goodmanman.github.io/bus-app/dist/index.html#/carServeice
+
